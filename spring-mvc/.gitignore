@@ -2,3 +2,4 @@
 .settings
 target/
 spring-mvc-training.iml
+../spring-mvc-training/

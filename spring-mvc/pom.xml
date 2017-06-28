@@ -23,10 +23,12 @@
             <artifactId>spring-boot-devtools</artifactId>
             <optional>true</optional>
         </dependency>
+<!-- STEP-00
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-actuator</artifactId>
         </dependency>
+-->
     </dependencies>
 
     <properties>
@@ -39,7 +41,8 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
-<!--                <executions>
+<!--STEP-00
+                <executions>
                     <execution>
                         <goals>
                             <goal>build-info</goal>
@@ -49,7 +52,8 @@
             </plugin>
             <plugin>
                 <groupId>pl.project13.maven</groupId>
-                <artifactId>git-commit-id-plugin</artifactId>-->
+                <artifactId>git-commit-id-plugin</artifactId>
+-->
             </plugin>
         </plugins>
     </build>
