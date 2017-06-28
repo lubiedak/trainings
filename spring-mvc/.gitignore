@@ -1,2 +1,4 @@
 .project
 .settings
+target/
+spring-mvc-training.iml
